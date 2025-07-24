@@ -10,17 +10,17 @@ water_dfs = []
 while k < 16:
     k += 1
     df = pd.read_csv(f"image_analysis_csv_files\\water_diameter\\{k}_Plot Values.csv")
-    df['Distance_(pixels)'] = df['Distance_(pixels)'] / 28
-    df['X_Fit:_Gaussian'] = df['X_Fit:_Gaussian'] / 28
+    df['Distance_(pixels)'] = df['Distance_(pixels)'] / 26
+    df['X_Fit:_Gaussian'] = df['X_Fit:_Gaussian'] / 26
     water_dfs.append(df)
 
-# from reference, 1mm = 28pixels, measured on FIJI (ImageJ)
+# from reference, 1mm = 26pixels, measured on FIJI (ImageJ)
 
 #############################################################
 # reference graph
 df_ref = pd.read_csv("image_analysis_csv_files\\water_diameter\\ref_Plot Values.csv")
-df_ref['Distance_(pixels)'] = df_ref['Distance_(pixels)'] / 28
-df_ref['X_Fit:_Gaussian'] = df_ref['X_Fit:_Gaussian'] / 28
+df_ref['Distance_(pixels)'] = df_ref['Distance_(pixels)'] / 26
+df_ref['X_Fit:_Gaussian'] = df_ref['X_Fit:_Gaussian'] / 26
 df_ref['Gray_Value'] = df_ref['Gray_Value']
 
 plt.figure()
