@@ -11,4 +11,4 @@ This is a repository of all the files I used in my project, including but not li
   - The spot size data has the photos for spot size at different positions without the aerosol, and at two positions with 16 captures each for with the aerosol (water).
 - **spectrum**: Has the spectrum data, spectrum plots, and the code for the spectrum plots.
 - `radial_intensity_profile.py`: The code for the radial intensity profiles. The plots are saved to **radial_profiles**.
-- `full_radial_intensity_profile.py`: The code for graphs with intensity profile from -r to +r. Plots saved to **full_radial_profiles**.
+- `full_intensity_profile.py`: The code for graphs with intensity profile from -r to +r. Plots saved to **full_radial_profiles**.
