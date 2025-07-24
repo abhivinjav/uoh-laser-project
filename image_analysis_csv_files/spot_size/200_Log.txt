@@ -1,0 +1,15 @@
+Fit for Plot of 200_0001: Data Set 1: (529 data points)
+Formula: y = a + (b-a)*exp(-(x-c)*(x-c)/(2*d*d))
+Macro code: y = a+(b-a)*Math.exp(-(x-c)*(x-c)/(2*d*d))
+Status: Max. no. of restarts reached (inaccurate result?)
+Number of completed minimizations: 6
+Number of iterations: 826 (max: 6000)
+Time: 67 ms
+Sum of residuals squared: 346670.148
+Standard deviation: 25.62612
+R^2: 0.51160
+Parameters:
+	a = -5946420.38
+	b = 123.47986
+	c = 263.74227
+	d = 48649.4176
