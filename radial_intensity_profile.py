@@ -46,7 +46,7 @@ for df in water_dfs:
         sns.lineplot(data=df, x='X_Fit:_Gaussian', y='Fit:_Gaussian', color='blue', linewidth=0.75, label='Gaussian Fit')
     else:
         plt.figure()
-        sns.lineplot(data=df, x='Radius_[pixels]', y='Normalized_Integrated_Intensity', color='black', linewidth=1, label='Gaussian Fit')
+        sns.lineplot(data=df, x='Radius_[pixels]', y='Normalized_Integrated_Intensity', color='black', linewidth=1, label='Radial Profile')
         sns.lineplot(data=df, x='X_Fit:_Gaussian', y='Fit:_Gaussian', color='blue', linewidth=0.75, label='Gaussian Fit')
 
     plt.title(fr'Radial Intensity Profile {i} $I_{i}(r)$')
