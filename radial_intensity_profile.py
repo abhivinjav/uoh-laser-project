@@ -14,7 +14,7 @@ while k < 16:
     df['X_Fit:_Gaussian'] = df['X_Fit:_Gaussian'] / 26
     water_dfs.append(df)
 
-# from reference, 1mm = 28pixels, measured on FIJI (ImageJ)
+# from reference, 1mm = 26pixels, measured on FIJI (ImageJ)
 
 #############################################################
 # reference graph
